@@ -117,7 +117,7 @@ m3ApiRawFunction(m3_arduino_getString)
     m3ApiGetArg(int32_t, out_len)
 
     const char buff[] = "Тест юнікоду!";
-    memcpy(out, buff, min(sizeof(buff), out_len));
+    memcpy(out, buff, MIN(sizeof(buff), out_len));
 
     m3ApiSuccess();
 }
