@@ -268,7 +268,7 @@ typedef int8_t          i8;
 #    define d_m3VerboseLogs                     false
 #  endif
 #  ifndef d_m3MaxFunctionStackHeight
-#    define d_m3MaxFunctionStackHeight          64
+#    define d_m3MaxFunctionStackHeight          128
 #  endif
 #  ifndef d_m3CodePageAlignSize
 #    define d_m3CodePageAlignSize               1024
